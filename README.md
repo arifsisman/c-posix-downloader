@@ -29,13 +29,13 @@ If we entitle each thread as 0 to N. Every thread from 0 to N will be downloaded
 7. Termination
    Close file, socket connections and return SUCCESS
 
-# 4. Algorithm Flow Chart
+## 4. Algorithm Flow Chart
 
-<div style="text-align:center">
+<p align="center">
     <img src="flowchart.png" width="450" />
-</div>
+</p>
 
-# 5. Usage
+## 5. Usage
 
 ```sh
 ./c-posix-downloader [ -h help ] –u URL -t thread count
