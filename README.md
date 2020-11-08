@@ -12,7 +12,7 @@ Each thread tries to read data from different sockets at the same time and write
 Before reading the HTTP response, each thread knows, which part of the file will be downloaded by itself and requests a range of bytes from the server.
 If we entitle each thread as 0 to N. Every thread from 0 to N will be downloaded equally parts. Only Nth thread will be download a remaining part additionally.
 
-### 3. Steps
+## 3. Steps
 
 1. Getting User Inputs
    Parsing command-line inputs to get information about the target file and thread number.
