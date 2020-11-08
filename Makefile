@@ -1,5 +1,5 @@
 SRC=http_client.c
-EXE=c-posix-downloader.exe
+EXE=c-posix-downloader
 FLAGS=-pthread -lm
 build=build
 
